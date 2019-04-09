@@ -60,3 +60,4 @@ $('#prev').click(function () {
 $('#next').click(function () {
     moveToSelected('next');
 });
+

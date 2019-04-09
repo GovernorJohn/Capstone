@@ -15,6 +15,13 @@ body{
     overflow: hidden;
   }
   
+  .dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   ul{
     margin: 0;
     padding: 0;
@@ -108,8 +115,8 @@ body{
   }
   
   #searchbox input[type="text"]{
-    padding: 10px;
-    height: 25px;
+    padding: 50px;
+    height: 100px;
     width: 1500px;
   }
   
@@ -160,6 +167,36 @@ body{
     background: #e6e6e6;
     float: left;
     width: 65%;
+  }
+
+  /* sidebar */
+  aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top: 10px;
+  }
+
+    /* main-col*/
+    article#main-col{
+      float:left;
+      width:65%;
+    }
+  
+
+    /* media queries */
+
+  @media(max-width: 760px){
+    header #branding,
+    header nav,
+    header nav li{
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+
+    header{
+    padding-bottom: 20px;
+  }
   }
   
   footer{
